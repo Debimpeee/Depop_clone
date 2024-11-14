@@ -1,0 +1,142 @@
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(215, 215, 215);
+    padding: 0.8rem 1.8rem 0.8rem 2.2rem;
+    min-height: 65px;
+}
+
+.logo img{
+    width: 95px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    gap: 6px;
+    height: 40px;
+    white-space: nowrap;
+    border-radius: 30px;
+    border: 2px solid rgb(38, 38, 38);
+    width: 45%;
+    padding-inline-end: 8px;
+    padding-inline-start: 40px;
+    padding-left: 15px;
+    padding-right: 8px;
+    padding-top: 0px;
+}
+
+.searchbar input{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+}
+
+.searchbar input::placeholder {
+    color: rgb(0, 0, 0);      
+    font-weight: 300;   
+}
+
+.actions{
+    display: flex;
+    gap: 4px;
+    margin-left: -2px;
+}
+
+.likes, .shop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px; 
+    color: rgb(38, 38, 38);
+    cursor: pointer;
+}
+
+/* .likes .icon, .shop .icon {
+    font-size: 16px;
+    min-width: 44px;
+}  */
+
+.sell_now{
+    padding: 4px 19px;
+    margin: 0 4px 0 2px;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    background: #262626;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.sign_up{
+    padding: 2px 19px;
+    border-color:rgb(38, 38, 38);
+    color: #262626;
+    border-radius: 2px;
+    background: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.login{
+    padding: 4px 8px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(38, 38, 38);
+    border: none;
+    font-size: 1.1rem;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+background-color rgb(243, 243, 243)
+border-bottom-left-radius 20px
+border-bottom-right-radius 20px
+border-top-left-radius 20px
+border-top-right-radius 20px
+box-shadow rgba(0, 0, 0, 0.3) 0px 2px 8px -1px
+box-sizing border-box
+display block
+font-family "GT America", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif
+font-size 16px
+font-weight 400
+height 56px
+left -4px
+overflow-x hidden
+overflow-y hidden
+padding-top 56px
+position absolute
+top 0px
+unicode-bidi isolate
+width 458.234px
+z-index 0 */

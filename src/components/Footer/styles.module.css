@@ -1,0 +1,100 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+}
+
+.footer a p{
+    color: #262626;
+    font-size: 14px;
+}
+
+.footer_top{
+    background-color: #f3f3f3;
+}
+
+.footer_topContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.8rem 2.2rem 0.8rem 2rem;
+}
+
+.footer_desktopContainer{
+    display: flex;
+    gap: 10.7rem;
+}
+
+.footer_columnContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerColumnTitle{
+    padding: 16px 16px 22px 16px;
+}
+
+.footer_socialsContainer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.footer_socials{
+    display: flex;
+    gap: 20px;
+    padding-right: 1rem;
+}
+
+.footer_socials a{
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+    font-size: 1.5rem;
+}
+
+.footer_bottom{
+    background-color: #d7d7d7;
+}
+
+.footer_bottomContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.8rem 2.2rem 0.8rem 1.8rem;
+}
+
+.lang_place{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.country:hover,
+.language:hover{
+    background-color: #f3f3f3;
+    border-radius: 3px;
+}
+
+.footer select{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    padding: 16px;
+}
+
+.footer option{
+    background-color: #fff;
+    padding: 16px;
+} 
+
+.others{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerlink_wrapper{
+    padding: 16px;
+}
+
+

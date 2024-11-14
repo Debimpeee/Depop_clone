@@ -1,0 +1,33 @@
+/* .fade {
+    animation: fadeInOut 2s ease-in-out;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+   */
+
+
+
+   .searchContainer {
+    position: relative; /* Ensure this container has position relative for absolute children */
+}
+
+.sparkle {
+    position: absolute;
+    transition: transform 1s;
+    animation: sparkle 1s forwards; /* Define your sparkle animation */
+}
+/* 
+@keyframes sparkle {
+    transform: scale(1.5);
+    opacity: 0;
+} */
